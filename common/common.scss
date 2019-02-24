@@ -1,13 +1,17 @@
 @import "theme_variables";
 
-.sleekpage-header {height: 70px; background-color: #9bd4b5;background-image: linear-gradient(170deg,rgba(27,169,225,.4),transparent 60%),linear-gradient(50deg,transparent,rgba(109,194,237,.15) 25%,rgba(109,194,237,.5) 70%,#6dc2ed 95%);}
+/* Preset Font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+/* Main Brand Menu */
+.sleekpage-header {font-family: 'Montserrat',sans-serif;height: 70px; background-color: #9bd4b5;background-image: linear-gradient(170deg,rgba(27,169,225,.4),transparent 60%),linear-gradient(50deg,transparent,rgba(109,194,237,.15) 25%,rgba(109,194,237,.5) 70%,#6dc2ed 95%);}
+.sleekpage-header a {color:#FFF;}
 .sleekpage-header .bm-mh-head img {height: 50px;margin-top:10px;margin-left:30px;}
 .sleekpage-header .bm-mh-head .bm-mh-head-menu {float: right;height: 30px; line-height: 30px;margin: 20px 30px; transition: all 1s ease;}
 .sleekpage-header .bm-mh-head .bm-mh-head-menu a {margin-right: 20px; font-weight: 600;}
 .sleekpage-header .bm-mh-head .bm-mh-head-menu a.sign-in {margin-right: 0px; font-weight: 600;border: 2px solid #FFF;padding: 10px 20px;border-radius: 5px;}
 .sleekpage-header .bm-mh-head .bm-mh-head-menu a.sign-up {margin-right: 0px; font-weight: 600; border: 2px solid #FFF; padding: 10px 20px; border-radius: 5px;background: #fff;color: var(--txt-color-dark, #4e566d);display: none;}
 .sleekpage-header .bm-mh-head .bm-mh-head-menu-mobile {display:none;}
-
 
 /** 
 * ********************
