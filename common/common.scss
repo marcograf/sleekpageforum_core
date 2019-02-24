@@ -13,6 +13,9 @@
 .sleekpage-header .bm-mh-head .bm-mh-head-menu a.sign-up {margin-right: 0px; font-weight: 600; border: 2px solid #FFF; padding: 10px 20px; border-radius: 5px;background: #fff;color: var(--txt-color-dark, #4e566d);display: none;}
 .sleekpage-header .bm-mh-head .bm-mh-head-menu-mobile {display:none;}
 
+/* Forum Header */
+.d-header>.wrap {max-width: 100%;margin: 0 20px;}
+
 /** 
 * ********************
 * Responsive
@@ -23,7 +26,7 @@
 
   /* Mobile Menu */
   .sleekpage-header .bm-mh-head .bm-mh-head-menu-mobile {position: absolute;right: 0px;top: 0px;height: 70px;line-height: 70px;display:block;}
-  .sleekpage-header .bm-mh-head .bm-mh-head-menu-mobile svg {width: 25px!important;height: 25px!important;color: #FFFFFF;display: block;line-height: 70px;cursor: pointer;margin: 22.5px;}
+  .sleekpage-header .bm-mh-head .bm-mh-head-menu-mobile svg {width: 25px!important;height: 25px!important;color: #FFFFFF;display: block;line-height: 70px;cursor: pointer;margin: 22.5px;position: relative;z-index: 10000000;}
   .sleekpage-header .bm-mh-head .bm-mh-head-menu {position: absolute;top: 0px;padding-top: 70px;margin: 0px;width: 100%;z-index: -1;opacity: 0;height: 0px;overflow: hidden;}
   .sleekpage-header .bm-mh-head .bm-mh-head-menu a {display: block;text-align: center;background: #FFF;color: #000;margin: 0;line-height: 60px;border-bottom: 1px solid #eee;}
   .sleekpage-header .bm-mh-head .bm-mh-head-menu.open {opacity: 1;height: auto;z-index: 10000;}
