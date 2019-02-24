@@ -13,8 +13,12 @@
 .sleekpage-header .bm-mh-head .bm-mh-head-menu a.sign-up {margin-right: 0px; font-weight: 600; border: 2px solid #FFF; padding: 10px 20px; border-radius: 5px;background: #fff;color: var(--txt-color-dark, #4e566d);display: none;}
 .sleekpage-header .bm-mh-head .bm-mh-head-menu-mobile {display:none;}
 
-/* Forum Header */
+/* Forum => Header */
 .d-header>.wrap {max-width: 100%;margin: 0 20px;}
+
+/* Forum => Buttons */
+.btn {border-radius: 5px;}
+.btn#create-topic {background: #6dc2ed;color: #FFF;border-radius: 5px;padding: 10px;margin: -5px 0;}
 
 /** 
 * ********************
